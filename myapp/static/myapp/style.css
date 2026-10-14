@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(90, 170, 197);
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}

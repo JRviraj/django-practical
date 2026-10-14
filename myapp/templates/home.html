@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Django Page</title>
+    <link rel="stylesheet"
+          href="{% static 'myapp/style.css' %}">
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    <img src="{% static 'myapp/post-card-ui.png' %}" alt="My Image">
+    <button onclick="showMessage()">
+        Click photo
+    </button>
+
+    <script src="{% static 'myapp/script.js' %}"></script>
+
+</body>
+</html>
